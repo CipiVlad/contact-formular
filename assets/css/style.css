@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+.container-form {
+    width: 500px;
+    height: 400px;
+    background-color: lightgrey;
+    margin: 10em auto;
+}
+
+.container-form h2 {
+    font-size: 2em;
+    text-align: center;
+    padding: 1em 0;
+    color: #fff;
+    width: 100%;
+    background-color: lightgreen;
+}
+
+.container-form [target] {
+    width: 96%;
+    padding: 0.5em 0.5em;
+    margin: 0.5em 0.5em;
+}
+
+.container-form [target="send"] {
+    color: #fff;
+    background: lightgreen;
+    border: 1px solid green;
+    margin-top: 0.5em;
+}
+
+.container-form [target="message"] {
+    font-family: sans-serif;
+}
